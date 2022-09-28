@@ -3,7 +3,7 @@ password = "rules"
 attempts = 0
 while attempts < 5:
    user = str(input("Enter User ID :"))
-   passw = str(input("Enter User ID :"))
+   passw = str(input("Enter password :"))
 
    if user == username and passw == password:
       print("Welcome")
